@@ -11,6 +11,10 @@
     <div class="main">
         <img src="image-2.jpg" alt="alternative image">
         <div class="comain-div">
+            <p class="odin">
+                <a href="https://github.com/NurPacqiao"><img src="github.png" alt="icon" style="width:36px; height:36px; vertical-align:middle;"></a>
+                <a href="https://www.theodinproject.com/dashboard" id="odin">The Odin Project</a>
+            </p>
             <p id="top-text">
                 This is not a real online service! 
                 You know you need something like this in your life to help you realize your deepest dreams.
@@ -24,12 +28,12 @@
                     <legend><h2>Let's do this</h2></legend>
                     <div class="inputs">
                         <label for="first-name">FIRST NAME</label>
-                        <input type="text" name="first-name" id="first-name" required>
+                        <input type="text" name="first-name" id="first-name" required pattern="[A-Za-z]+" placeholder="John">
                     </div>
                     
                     <div class="inputs">
                         <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email" required>
+                        <input type="email" name="email" id="email" required placeholder="something@example.com">
                     </div>
 
                     <div class="inputs">
@@ -41,17 +45,17 @@
                 <form action="#" method="post" class="form-2">
                     <div class="inputs second">
                         <label for="last-name">LAST NAME</label>
-                        <input type="text" name="last-name" id="last-name" required>
+                        <input type="text" name="last-name" id="last-name" required pattern="[A-Za-z]+" placeholder="Doe">
                     </div>
 
                     <div class="inputs second">
                         <label for="phone-number">PHONE NUMBER</label>
-                        <input type="tel" name="phone-number" id="phone-number" required>
+                        <input type="tel" name="phone-number" id="phone-number" required pattern="\+?[0-9]{9,15}" placeholder="1234567890">
                     </div>
 
                     <div class="inputs second">
                         <label for="password">CONFIRM PASSWORD</label>
-                        <input type="password" name="password" id="password" required>
+                        <input type="password" name="password" id="password" required placeholder=" ">
                     </div>
                 </form>
             </div>
@@ -59,6 +63,10 @@
             <div class="footer">
                 <button>Create Account</button>
                 <span class="log">Already have an account? <a href="#">Log in</a></span>
+            </div>
+
+            <div>
+                <span class="credit">Made by <a href="https://github.com/NurPacqiao">NurPacqiao</a></span>
             </div>
         </div>
     </div>
