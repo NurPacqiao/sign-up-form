@@ -7,8 +7,11 @@ A clean and simple sign-up form built using HTML5 and CSS3, featuring built-in b
 🚀 Features
 
 •	HTML5 form validation using attributes like required, type, pattern, and minlength
+
 •	User-friendly error messages from the browser
+
 •	Structured and accessible form layout
+
 •	Responsive styling for various screen sizes
 
 ⸻
@@ -16,6 +19,7 @@ A clean and simple sign-up form built using HTML5 and CSS3, featuring built-in b
 🛠️ Technologies Used
 
 •	HTML5 – structure & built-in validation
+
 •	CSS3 – styling and layout
 
 ⸻
@@ -33,7 +37,9 @@ A clean and simple sign-up form built using HTML5 and CSS3, featuring built-in b
 📝 How It Works
 
 •	All input fields use HTML5 validation attributes to enforce rules (e.g., correct email format, minimum password length).
+
 •	The form cannot be submitted until all fields pass validation.
+
 •	No JavaScript is needed — the browser handles validation automatically.
 
 ⸻
